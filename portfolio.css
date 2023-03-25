@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding :0;
+}
+body{
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:linear-gradient(blue,yellow);
+  flex-direction: column;
+}
+.container{
+  background-color: antiquewhite;
+  padding: 20px;
+  width: 80%;
+  box-shadow: -20px 20px 20px 20px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container *{
+  padding: 20px;
+  
+}
